@@ -1,0 +1,28 @@
+package week1.day2assignment;
+
+public class EmployeeDetails {
+	public void EmployeeName (String empName, int empId) {
+		System.out.println("EmployeeName and id ="+ empName + empId);
+	}
+	private String GetEmployeeAddress(String empaddress) {
+		System.out.println("GetEmployeeAddress ="+ empaddress);
+		return empaddress;
+	}
+	private void PrintEmployeeSalary(double empSalary) {
+		System.out.println("printEmployeeSalary ="+ empSalary);
+	}
+    public void printEmployeeMobileNumber(long mobNum) {
+	System.out.println("printEmployeeMobileNumber ="+ mobNum);
+}
+    public static void main(String[] args) {
+		EmployeeDetails emp = new EmployeeDetails();
+		emp.EmployeeName("aadhiran", 7363737);
+	
+		String getEmployeeAddress = emp.GetEmployeeAddress("chennai");
+		
+		emp.PrintEmployeeSalary(50000);
+		
+		emp.printEmployeeMobileNumber(9873668999L);
+		
+	}
+}
