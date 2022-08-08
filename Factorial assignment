@@ -1,0 +1,17 @@
+package week.day1assignment;
+
+public class Factorialassignment {
+	public static void main(String[] args) {
+		 int n =5; int fact =1;
+			int i;	
+		for( i=n;i>0;i--)
+		{
+		
+		 
+		fact= fact*i;
+		}
+		System.out.println("The Factorial of " +n+" is: "+fact);
+	}
+
+}
+	
