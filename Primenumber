@@ -1,0 +1,24 @@
+package week.day1assignment;
+
+public class Primenumber {
+	public static void main(String[] args) {
+		int n=13;
+		boolean flag = false;
+		for(int i = 2; i<n; i++)
+		{//condition for non prime number
+			
+			if (n%i==0) 
+				flag=true;
+			break;}
+			System.out.println(n +"is a prime number");
+	
+		}
+
+	
+	
+	
+	
+	
+
+
+
