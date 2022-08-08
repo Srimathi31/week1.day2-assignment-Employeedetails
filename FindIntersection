@@ -1,0 +1,19 @@
+package week1.day2assignment;
+
+public class FindIntersection {
+	public static void main(String[] args) {
+		int[] a = {3,2,11,4,6,7}; int[] b = {1,2,8,4,9,7}; int i; int c;
+		for(i=0; i<a.length; i++) {
+		
+	
+		for(c=0;c<b.length;c++) {
+		
+			if(a[i]==b[c]) {
+				System.out.println(a[i]);
+		}
+
+}
+
+	}
+		}
+	}	
