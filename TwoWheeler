@@ -1,0 +1,42 @@
+package week1.day2assignment;
+
+public class TwoWheeler {
+	int noOfWheels = 2;
+	short noOfMirrors = 2;
+	long chassisNumber = 32615374564751384L;
+	boolean isPuncture = false;
+	String bikeName = "pulsar";
+	double runningKM = 45789;
+	
+	public static void main(String[] args) {
+		TwoWheeler obj = new TwoWheeler();
+		System.out.println(obj.noOfMirrors);
+		System.out.println(obj.chassisNumber);
+		System.out.println("---------------");
+		int noOfMirrors = obj.noOfMirrors;
+		System.out.println(noOfMirrors);
+		
+	    
+	    
+		System.out.println("noOfWheels"+":"+ obj.noOfWheels);
+		System.out.println("noOfWheels"+":"+ obj.noOfMirrors);
+		System.out.println("chassisNumber"+":"+ obj.chassisNumber);
+		System.out.println("isPuncture"+":"+ obj.isPuncture);
+		System.out.println("bikeName"+":"+ obj.bikeName);
+		System.out.println("runningKM"+":"+ obj.runningKM);
+		
+	
+	
+	
+
+	
+	
+		
+	
+		
+	}
+
+			
+	}
+
+
