@@ -1,0 +1,28 @@
+package week2.day1assignment;
+
+import java.util.Arrays;
+
+public class OptionalAnagram {
+	public static void main(String[] args) {
+		String text1 = "stops";
+		String text2 = "potss";
+		
+		int length = text1.length();
+		int length2 = text2.length();
+		if(length==length) {
+			
+			char[] x = text1.toCharArray();
+			char[] y = text2.toCharArray();
+			
+			Arrays.sort(x);
+			Arrays.sort(y);
+			
+			if(Arrays.equals(x, y)) {
+				System.out.println("Anagram");
+				
+			}else {System.out.println("not an Anagram");
+			
+		}
+	}
+	}
+}
